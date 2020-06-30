@@ -1,0 +1,3 @@
+RewriteEngine  On
+RewriteCode %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $l.html [NC,L]
